@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+h1 span {
+    color: yellow;
+    text-transform: capitalize
+}
+.rigthdiv{
+    width: 350px;
+    height: 375px;
+    
+    /* background-color: aliceblue; */
+    border-radius: 40px;
+    
+    margin: 40px 10px 60px;
+    margin-left: 180px;
+    background-color: #cbbfbf6d;
+    border: 1px solid black;
+    opacity: 0.7;
+    float: left;
+    box-shadow: 5px 10px 5px rgb(39, 39, 39);
+    text-align: center;
+    color: white;
+}
+.rigthdiv .celci{
+    margin-top: -10px;
+}
+.rigthdiv h2{
+    margin-top: -10px;
+}
+.leftdiv{
+    width: 900px;
+    height: 375px;
+    /* background-color: aliceblue; */
+    border-radius: 40px;
+    
+    margin: 40px 0;
+    background-color: #cbbfbf6d;
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px rgb(39, 39, 39);
+    opacity: 0.7;
+    float: left;
+    margin: 40px 0px;
+}
+.mainimage{
+    width: 80px;
+    height: 70px;
+    font-size: 30px;
+    color: aqua;
+}
+.iconimage img{
+    margin: 0 50px ;
+}
+
+.bloimage{
+    display: flex;
+    justify-content: center;
+    
+}
+.bloimage h4{
+    text-align: center;
+    margin: 0 10px ;
+    margin-top: 3px;
+}
+.mainimage h1{
+    color: yellow;
+}
+.leftdiv h1{
+    color: yellow;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.leftdiv .head{
+    position: absolute;
+    margin: 10px 250px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.leftdiv .head span{
+    color: aqua;
+}
+.leftdiv .col{
+    display: flex;
+    
+}
+.leftdiv .col .row{
+    width: 150px;
+    height: 180px;
+    background-color: rgb(177, 180, 182);
+    border-radius: 15px;
+    margin: 0 10px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(8, 8, 8);
+    font-weight: bolder;
+    font: 1em sans-serif;
+}
+.leftdiv .col .row img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.leftdiv .col .row .head{
+    color: yellow;
+    margin: 3px 10px;
+}
+.leftdiv .col .row h3{
+    margin: 5px 0;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-image: url(./Component/WhatsApp\ Image\ 2024-08-15\ at\ 07.26.51_0aeec2e7.jpg);
+  height: fit-content;
+}
+.images div{
+ margin: 35px 0;
+  display: flex;
+
+}
+.images{
+  display: flex;
+  
+}
+img{
+  margin-top: 10px;
+}
+.imageforheader {
+	max-width: 150px;
+	margin: 20px;
+	-webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	transition: 1s;
+}
+
+img:hover {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.forsearch{
+  text-align: center;
+
+}
+.forsearch input{
+  border-radius: 4px;
+  border: 2px solid rgb(153, 218, 240);
+  padding: 10px;
+}
+.forsearch button{
+  border-radius: 4px;
+  border: 2px solid rgb(153, 218, 240);
+  padding: 10px;
+  background-color: aqua;
+  cursor: pointer;
+}
+.forsearch button :hover{
+  background-color: blue;
+}
+.images div h2{
+  color: yellow;
+  margin-top: 30px;
+}
+.images div .row{
+  flex-direction: column;
+  height: 40px;
+  margin-top: -10px;
+  margin: 0 0;
+  
+
+}
+.images div .row h1{
+  margin: 0 10px;
+  color: white;
+}
+
